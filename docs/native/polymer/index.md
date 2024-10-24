@@ -9,6 +9,37 @@ Polymer introduces a **virtual IBC (vIBC)** protocol that decouples the transpor
 
 ## Architecture
 
+```mermaid
+graph TD
+    A1[Rollup 1] -->|IBC Transport| P["Polymer Hub (L2 on Ethereum)"]
+    A2[Rollup 2] -->|IBC Transport| P
+    A3[Rollup N] -->|IBC Transport| P
+    P -->|vIBC Communication| B1[IBC-Enabled Chain 1]
+    P -->|vIBC Communication| B2[IBC-Enabled Chain 2]
+    P -->|vIBC Communication| B3[IBC-Enabled Chain N]
+
+    P -->|Relayers| C[Ethereum Settlement Layer]
+
+    subgraph "Polymer Hub"
+      P1[vIBC Module]
+      P2[IBC Clients]
+      P3[Smart Contract API Interface]
+      P4[Relayers]
+      P1 -- "vIBC to manage execution" --> P2
+      P2 -- "Modular Verification" --> P3
+      P4 -- "Relays Messages" --> P2
+    end
+
+    subgraph "Ethereum Settlement Layer"
+      C1[Ethereum Chain]
+      C2[Settlement Contracts]
+      C1 -- "Shared Security" --> P
+    end
+
+    style P fill:#f9f,stroke:#333,stroke-width:4px
+    style C fill:#bbf,stroke:#333,stroke-width:2px
+```
+
 Polymer is an Ethereum Layer 2 rollup specifically designed to facilitate cross-rollup communication by leveraging IBC. Its architecture consists of several components:
 
 1. **Virtual IBC (vIBC)**: Polymer uses vIBC to enable chains to outsource their IBC transport-level execution to Polymer while keeping the verification layer on the respective chains. This setup reduces the overhead on individual chains, allowing more efficient cross-chain communication.
