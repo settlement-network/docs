@@ -4,14 +4,6 @@ sidebar_position: 1
 
 # Getting Started
 
-```mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
-```
-
 ## Introduction
 
 ### What is Settlement?
@@ -24,5 +16,4 @@ The purpose of this site is to describe different approaches to the finalization
 
 ### Types of Settlement
 
-Native Settlement, External Settlement, Hybrid Settlement 
-
+Native Settlement, External Settlement, Hybrid Settlement
