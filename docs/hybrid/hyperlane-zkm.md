@@ -68,22 +68,23 @@ graph TD
 ## Categorization in Settlement Network Types
 
 1. **External Verification**
-    - Hyperlane primarily fits here as it uses its own protocol and validator set for message verification.
-    - ZKM enhances the external verification process with zero-knowledge proofs.
-    
-    **Related Projects**: Axelar, Entangle, Initia, Omni, Cycle Network
-    
+
+   - Hyperlane primarily fits here as it uses its own protocol and validator set for message verification.
+   - ZKM enhances the external verification process with zero-knowledge proofs.
+
+   **Related Projects**: Axelar, Entangle, Initia, Omni, Cycle Network
+
 2. **Native Verification**
-    - Aspects of Hyperlane's direct interaction with connected chains via its on-chain API align with native verification.
-    - ZKM integration allows for more efficient and private native verification on connected chains.
-    
-    **Related Projects**: Polymer, zkLink
-    
+
+   - Aspects of Hyperlane's direct interaction with connected chains via its on-chain API align with native verification.
+   - ZKM integration allows for more efficient and private native verification on connected chains.
+
+   **Related Projects**: Polymer, zkLink
 
 ## Conclusion
 
 Hyperlane with ZKM integration represents an advanced interchain messaging solution that leverages zero-knowledge proofs to enhance security, privacy, and efficiency. While primarily an externally verified system, it incorporates elements of native verification through its on-chain API, positioning it as a hybrid solution in the settlement network landscape. The integration of ZKM addresses some of Hyperlane's previous limitations while introducing new possibilities for private and secure cross-chain communication.
 
-Resources 
+## Resources
 
-https://blog.li.fi/hyperlane-a-deep-dive-250a930859bf
+- https://blog.li.fi/hyperlane-a-deep-dive-250a930859bf

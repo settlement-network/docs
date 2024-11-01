@@ -81,7 +81,7 @@ const config: Config = {
         },
         // { to: '/blog', label: 'Blog', position: 'left' },
         {
-          href: 'https://github.com/settlement-network',
+          href: 'https://github.com/zkMIPS/settlement-network',
           label: 'GitHub',
           position: 'right',
         },

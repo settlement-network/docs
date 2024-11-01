@@ -1,5 +1,4 @@
-
-#  Polymer
+# Polymer
 
 ## Overview
 
@@ -53,7 +52,6 @@ Polymer is an Ethereum Layer 2 rollup specifically designed to facilitate cross-
 Polymer leverages Ethereum as the settlement layer for all transactions between rollups. This design ensures trust-minimized security by inheriting Ethereum's robust security guarantees. Polymer removes the need for external validator sets, oracles, or intermediate layers, thus avoiding additional security risks.
 
 In terms of communication, Polymer uses IBC's transport layer, allowing Ethereum rollups to communicate directly with one another using the IBC standard. The vIBC protocol enhances this by decoupling transport-level execution from the application layer, enabling modular execution and verification across different blockchains. Polymer's architecture also supports multi-hop channel routing, which enables messages to travel between multiple chains, thus improving cross-chain connectivity without direct connections.
-
 
 ## Advantages of Polymer's Architecture
 

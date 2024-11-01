@@ -70,26 +70,24 @@ graph TD
 ## Categorization in Settlement Network Types
 
 1. **External Verification**
-    - THORChain primarily fits here as it uses its own blockchain for settlement.
-    - ZKM enhances the external verification process with zero-knowledge proofs.
-    
-    **Related Projects**: Entangle, Initia, Omni, Cycle Network, Hyperlane
-    
+
+   - THORChain primarily fits here as it uses its own blockchain for settlement.
+   - ZKM enhances the external verification process with zero-knowledge proofs.
+
+   **Related Projects**: Entangle, Initia, Omni, Cycle Network, Hyperlane
+
 2. **Native Verification**
-    - Aspects of THORChain's direct interaction with connected chains align with native verification.
-    - ZKM integration allows for more efficient native verification on connected chains.
-    
-    **Related Projects**: Polymer, zkLink
-    
+
+   - Aspects of THORChain's direct interaction with connected chains align with native verification.
+   - ZKM integration allows for more efficient native verification on connected chains.
+
+   **Related Projects**: Polymer, zkLink
 
 ## Conclusion
 
 THORChain with ZKM integration represents an advanced cross-chain liquidity solution that leverages zero-knowledge proofs to enhance security, privacy, and efficiency. While primarily an externally verified system, it incorporates elements of native verification, positioning it as a hybrid solution in the settlement network landscape. The integration of ZKM addresses some of THORChain's previous limitations while introducing new complexities and opportunities for the protocol.
 
----
+## Resources
 
-Resources 
-
-1. https://github.com/thorchain/Resources/tree/master/Whitepapers 
-
-2. https://kriptomat.io/cryptocurrency-prices/thorchain-rune-price/what-is/
+- https://github.com/thorchain/Resources/tree/master/Whitepapers
+- https://kriptomat.io/cryptocurrency-prices/thorchain-rune-price/what-is/

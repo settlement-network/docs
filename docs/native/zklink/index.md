@@ -1,5 +1,5 @@
+# zkLink
 
-# ZkLink
 ## Overview
 
 ZkLink is an aggregated rollup infrastructure that aims to address issues with increased costs & security risks associated with cross-chain transactions. ZkLink achieves this by building an aggregated rollup infrastructure to achieve cross-chain liquidity aggregation and simplify multi-chain dApp deployment. Through multi-chain state synchronization, dApps can securely access the liquidity from any connected chains.
@@ -35,9 +35,9 @@ flowchart LR
     subgraph "zkLink(L3)"
         direction BT
         sequencer
-       
+
     end
-   
+
     subgraph s["Secondary Chains(L2)"]
     sec1["2.Compute Sync Hashes"]
     sec2["4.Execute"]
@@ -52,7 +52,7 @@ flowchart LR
     pri2["2.Compute Sync Hash of Secondary Chains"]
     pri3["4.Execute"]
     end
-   
+
     pri1-->pri2
     pri2 -- "2.1 Send sync hash via rollup bridge"-->eth1
     sec1 --"2.1 Send sync hash via rollup bridge"-->eth1
@@ -69,6 +69,7 @@ Firstly, the zkLink Nexus Sequencer will commit state and proof to the primary c
 Next, the Ethereum contract will compare the sync hashes sent from the primary and secondary chains. If they match, a confirmation message is sent to the contracts on both the primary and secondary chains via the rollup bridge for execution.
 
 **ZkLink Origin**
+
 ```mermaid
 flowchart LR
 
@@ -76,9 +77,9 @@ flowchart LR
     subgraph "zkLink(L3)"
         direction BT
         sequencer
-       
+
     end
-   
+
     subgraph s["Secondary Chains(L2)"]
     sec1["2.Compute Sync Hashes"]
     sec2["4.Execute"]
@@ -102,7 +103,7 @@ flowchart LR
     pri3-->pri4
     pri3--"Send Confirmation"-->lon2
     sec1 --"2.1 Send sync hash"-->lon1
-   
+
 
 
     lon1 -- "3.1 Send sync hash"-->pri2

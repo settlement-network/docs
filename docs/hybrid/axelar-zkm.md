@@ -70,40 +70,39 @@ sequenceDiagram
 ### Advantages
 
 1. Enhanced Security
-    - ZKM's zkVM provides tamper-proof cryptographic proofs during cross-chain communication
-    - Threshold cryptography ensures collective management of gateways
+   - ZKM's zkVM provides tamper-proof cryptographic proofs during cross-chain communication
+   - Threshold cryptography ensures collective management of gateways
 2. Improved Efficiency
-    - ZKM reduces resource requirements for validators by offering verifiable computation
-    - Batch processing of multiple cross-chain transactions
+   - ZKM reduces resource requirements for validators by offering verifiable computation
+   - Batch processing of multiple cross-chain transactions
 3. Scalability
-    - Network state growth limited to cross-chain transfers, not connected blockchain sizes
-    - ZKM's zkVM enables more efficient state transitions and proofs
+   - Network state growth limited to cross-chain transfers, not connected blockchain sizes
+   - ZKM's zkVM enables more efficient state transitions and proofs
 4. Universal Compatibility
-    - Axelar can connect chains without depending on their consensus or state
-    - ZKM integration maintains this compatibility while enhancing security
+   - Axelar can connect chains without depending on their consensus or state
+   - ZKM integration maintains this compatibility while enhancing security
 5. Decentralization
-    - Relayers are not trusted for protocol safety
-    - ZKM enhances decentralization by reducing reliance on validator trust
+   - Relayers are not trusted for protocol safety
+   - ZKM enhances decentralization by reducing reliance on validator trust
 
 ### Disadvantages
 
 1. Implementation Complexity
-    - Integrating ZKM's zkVM with existing Axelar architecture requires careful design
-    - Multi-layer architecture (consensus, threshold cryptography, ZKM, relayers) adds complexity
+   - Integrating ZKM's zkVM with existing Axelar architecture requires careful design
+   - Multi-layer architecture (consensus, threshold cryptography, ZKM, relayers) adds complexity
 2. Validator Requirements
-    - Validators need to run nodes or light clients of connected chains
-    - Integration of ZKM may require validators to upgrade their infrastructure
+   - Validators need to run nodes or light clients of connected chains
+   - Integration of ZKM may require validators to upgrade their infrastructure
 3. Performance Trade-offs
-    - While ZK proofs enhance security, they may introduce some computational overhead
-    - The system's overall performance partially depends on connected blockchains' stability
+   - While ZK proofs enhance security, they may introduce some computational overhead
+   - The system's overall performance partially depends on connected blockchains' stability
 4. Adoption Challenges
-    - Integrating ZKM represents a significant change, which may face resistance or slow adoption
-    - Requires updates to existing smart contracts and relayer logic
+   - Integrating ZKM represents a significant change, which may face resistance or slow adoption
+   - Requires updates to existing smart contracts and relayer logic
 5. Potential for Centralization
-    - If ZKM integration significantly increases validator requirements, it could lead to centralization pressures
-    
+   - If ZKM integration significantly increases validator requirements, it could lead to centralization pressures
 
-Resources 
+## Resources
 
-1. https://medium.com/axelar/a-technical-introduction-to-the-axelar-network-3c4bf9fe4dc3
-2. https://www.axelar.network/whitepaper
+- https://medium.com/axelar/a-technical-introduction-to-the-axelar-network-3c4bf9fe4dc3
+- https://www.axelar.network/whitepaper

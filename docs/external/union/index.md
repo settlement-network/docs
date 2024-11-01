@@ -20,7 +20,6 @@ Union achieves its goals through several key innovations:
 
 ## Architecture
 
-
 ```mermaid
 sequenceDiagram
 participant A as Chain A
@@ -54,7 +53,6 @@ Note over B: Chain B state updated
 - If conditions are met, the Conditional Light Client submits a state update to Chain B.
 - Chain B verifies and processes the incoming data, updating its own state.
 
-
 ## **Architectural Advantages**
 
 1. **Improved Scalability**: CometBLS allows the network to scale to hundreds of validators without impacting performance or bridging latency.
@@ -75,12 +73,11 @@ Note over B: Chain B state updated
 Based on the provided information, Union falls under the **Hybrid** settlement category. This conclusion is drawn from the following observations:
 
 1. **Native Elements**:
-    - Union has its own blockchain with a native consensus mechanism (CometBLS).
-    - It uses its own validator set for consensus and proof generation.
+   - Union has its own blockchain with a native consensus mechanism (CometBLS).
+   - It uses its own validator set for consensus and proof generation.
 2. **External Elements**:
-    - Union interacts with external chains (L1s, L2s, and sovereign rollups) through light clients and zero-knowledge proofs.
-    - It uses conditional light clients to track and verify the state of external chains.
+   - Union interacts with external chains (L1s, L2s, and sovereign rollups) through light clients and zero-knowledge proofs.
+   - It uses conditional light clients to track and verify the state of external chains.
 3. **Hybrid Approach**:
-    - The combination of internal consensus (CometBLS) with external bridging capabilities (Conditional Light Clients) creates a hybrid system.
-    - Union acts as an intermediary layer between different blockchain networks, facilitating cross-chain communication while maintaining its own consensus.
-
+   - The combination of internal consensus (CometBLS) with external bridging capabilities (Conditional Light Clients) creates a hybrid system.
+   - Union acts as an intermediary layer between different blockchain networks, facilitating cross-chain communication while maintaining its own consensus.

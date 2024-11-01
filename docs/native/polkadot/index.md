@@ -56,6 +56,7 @@ Polkadot’s security and settlement approach is robust and designed to cater to
 ---
 
 ## Architecture
+
 ```mermaid
 graph TD
 

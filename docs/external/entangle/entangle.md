@@ -1,4 +1,3 @@
-
 # Entangle
 
 **Entangle** is a decentralized protocol facilitating seamless cross-chain communication and interaction among various blockchain networks. The primary problem it addresses is the fragmentation of assets and information across multiple blockchains, which limits interoperability and usability. By enabling secure and efficient communication between different blockchains, Entangle aims to create a more interconnected and accessible decentralized ecosystem, allowing users to transfer assets and data without being constrained by the limitations of individual blockchain environments.
@@ -89,11 +88,10 @@ Photon messaging falls under the **Hybrid Settlement** category. It involves a c
 Entangle Photon Messaging falls under the category of a **hybrid** settlement solution. It combines elements of both external and native settlement approaches:
 
 1. External aspects:
-    - Uses off-chain Transmitter and Watcher Agents for data collection and verification.
-    - Implements a separate consensus mechanism (DPoS) for cross-chain communication.
+   - Uses off-chain Transmitter and Watcher Agents for data collection and verification.
+   - Implements a separate consensus mechanism (DPoS) for cross-chain communication.
 2. Native aspects:
-    - Deploys End Point smart contracts on each supported blockchain for direct interaction with the native environment.
-    - Executors perform operations directly on the target blockchains using native transactions.
+   - Deploys End Point smart contracts on each supported blockchain for direct interaction with the native environment.
+   - Executors perform operations directly on the target blockchains using native transactions.
 
 This hybrid approach allows Entangle to leverage the benefits of both external coordination and native execution, potentially offering a balance between security, efficiency, and blockchain-specific optimizations.
-

@@ -21,13 +21,13 @@ Polyhedra's primary interoperability solution is **zkBridge**, which uses ZKPs t
 By categorizing bridges based on **functionality** (such as **decentralization vs. cost and speed**), Polyhedra ensures that its solutions meet the diverse needs of users while maintaining security and efficiency. The bridge options include:
 
 1. **Decentralized Bridges**:
-    These prioritize security and trustlessness, using ZKPs or distributed validator sets to ensure the integrity of transactions. Although highly secure, these solutions can be slower due to the computational complexity of zero-knowledge proof generation and verification.
+   These prioritize security and trustlessness, using ZKPs or distributed validator sets to ensure the integrity of transactions. Although highly secure, these solutions can be slower due to the computational complexity of zero-knowledge proof generation and verification.
 
 2. **Centralized Bridges**:
-    These offer faster and cheaper transactions by using centralized validators or intermediaries to verify and settle cross-chain transfers. However, they are less secure, as users must trust a centralized party, which increases the risk of manipulation or attacks.
+   These offer faster and cheaper transactions by using centralized validators or intermediaries to verify and settle cross-chain transfers. However, they are less secure, as users must trust a centralized party, which increases the risk of manipulation or attacks.
 
 3. **Trust-Minimized Bridges**:
-    Combining the best aspects of both decentralized and centralized models, trust-minimized bridges use cryptographic techniques (such as ZKPs) to minimize reliance on trusted intermediaries without sacrificing performance. They aim to offer a balance between speed, cost, and security.
+   Combining the best aspects of both decentralized and centralized models, trust-minimized bridges use cryptographic techniques (such as ZKPs) to minimize reliance on trusted intermediaries without sacrificing performance. They aim to offer a balance between speed, cost, and security.
 
 ---
 
@@ -54,6 +54,7 @@ This process ensures that user funds are only released when the validity of the 
 ---
 
 ## Architecture
+
 ```mermaid
 graph TD
 
@@ -71,7 +72,7 @@ subgraph "Polyhedra Network"
     P1[ZK Proof Generation]
     P2[Trustless Communication]
     P3[Scalable Interoperability]
-    
+
     P1 -- "Secure Cross-Chain Proofs" --> P2
     P2 -- "Cross-Chain Data Interoperability" --> P3
 end
@@ -79,7 +80,7 @@ end
 subgraph "External Chain Interoperability"
     C1[Layer 1 & Layer 2 Blockchains]
     C2[zkRollups]
-    
+
     C1 -- "Direct Asset Transfers" --> P
 end
 

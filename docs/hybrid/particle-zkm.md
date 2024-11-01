@@ -71,22 +71,23 @@ graph TD
 ## Categorization in Settlement Network Types
 
 1. **External Verification**
-    - Particle Network primarily fits here as it uses its own L1 blockchain for settlement of Universal Account transactions.
-    - ZKM enhances the external verification process with zero-knowledge proofs across multiple chains.
-    
-    **Related Projects**: THORChain, Entangle, Initia, Omni, Cycle Network, Hyperlane
-    
+
+   - Particle Network primarily fits here as it uses its own L1 blockchain for settlement of Universal Account transactions.
+   - ZKM enhances the external verification process with zero-knowledge proofs across multiple chains.
+
+   **Related Projects**: THORChain, Entangle, Initia, Omni, Cycle Network, Hyperlane
+
 2. **Native Verification**
-    - Aspects of Particle Network's Universal Accounts system, which interacts directly with connected chains, align with native verification.
-    - ZKM integration allows for more efficient native verification on connected chains through the Decentralized Bundler.
-    
-    **Related Projects**: Polymer, zkLink
-    
+
+   - Aspects of Particle Network's Universal Accounts system, which interacts directly with connected chains, align with native verification.
+   - ZKM integration allows for more efficient native verification on connected chains through the Decentralized Bundler.
+
+   **Related Projects**: Polymer, zkLink
 
 ## Conclusion
 
 Particle Network with ZKM integration represents an advanced cross-chain Universal Account solution that leverages zero-knowledge proofs to enhance security, privacy, and efficiency across multiple blockchains. While primarily an externally verified system through its L1 blockchain, it incorporates strong elements of native verification through its Universal Accounts system, positioning it as a hybrid solution in the settlement network landscape. The integration of ZKM addresses potential security and privacy concerns in cross-chain operations while introducing new possibilities for scalable and efficient blockchain interoperability.
 
-Resources 
+Resources
 
 https://particle.network/particle-network-l1.html
