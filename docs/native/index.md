@@ -15,3 +15,6 @@ A system is considered natively verified if transactions are settled on the base
 
 - [Polymer](https://www.polymerlabs.org)
 - [zkLink](https://zk.link)
+- [Polkadot](https://polkadot.com/)
+- [Polygon](https://polygon.technology/)
+- [Polyhedra](https://www.polyhedra.network/)

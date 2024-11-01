@@ -18,6 +18,7 @@ Any system that contains an additional blockchain other than the one that assets
 ### Related Projects
 
 - [Entangle](https://entangle.fi)
+- [Union](https://union.build/)
 - [Initia](https://initia.xyz)
 - [Omni](https://omni.network/)
 - [Cycle Network](https://cyclenetwork.io/)
